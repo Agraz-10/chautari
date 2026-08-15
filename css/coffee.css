@@ -1,0 +1,516 @@
+/* =========================
+   Coffee Hero
+========================= */
+
+.coffee-hero {
+    min-height: 520px;
+    padding: 80px 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--brown);
+
+    text-align: center;
+}
+
+.coffee-hero-content {
+    max-width: 800px;
+}
+
+.coffee-hero .section-label {
+    color: var(--beige);
+}
+
+.coffee-hero h1 {
+    margin-bottom: 25px;
+
+    color: var(--white);
+
+    font-family: var(--heading-font);
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 0.95;
+}
+
+.coffee-hero h1 span {
+    display: block;
+    color: var(--beige);
+}
+
+.coffee-hero p:last-child {
+    max-width: 550px;
+    margin: 0 auto;
+
+    color: #ded3c8;
+
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   Coffee Origin
+========================= */
+
+.coffee-origin {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 50px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+
+    align-items: center;
+
+    background-color: var(--cream);
+}
+
+.coffee-origin-image {
+    height: 600px;
+    overflow: hidden;
+}
+
+.coffee-origin-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform 0.5s ease;
+}
+
+.coffee-origin-image:hover img {
+    transform: scale(1.03);
+}
+
+.coffee-origin-content {
+    max-width: 520px;
+}
+
+.coffee-origin-content h2 {
+    margin-bottom: 25px;
+
+    color: var(--dark);
+
+    font-family: var(--heading-font);
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 0.95;
+}
+
+.coffee-origin-content h2 span {
+    display: block;
+    color: var(--terracotta);
+}
+
+.coffee-origin-content p:not(.section-label) {
+    margin-bottom: 18px;
+
+    color: var(--brown);
+
+    font-size: 12px;
+    line-height: 1.9;
+}
+
+.coffee-origin-content .text-link {
+    margin-top: 8px;
+}
+
+
+/* =========================
+   Bean To Cup
+========================= */
+
+.bean-to-cup {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 50px;
+
+    background-color: var(--white);
+}
+
+.bean-to-cup-heading {
+    margin-bottom: 50px;
+
+    text-align: center;
+}
+
+.bean-to-cup-heading h2 {
+    margin-bottom: 15px;
+
+    color: var(--dark);
+
+    font-family: var(--heading-font);
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 0.95;
+}
+
+.bean-to-cup-heading h2 span {
+    display: block;
+    color: var(--terracotta);
+}
+
+.bean-to-cup-heading > p:last-child {
+    color: var(--brown);
+
+    font-size: 12px;
+}
+
+
+/* =========================
+   Coffee Process
+========================= */
+
+.coffee-process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.coffee-process-card {
+    position: relative;
+
+    padding: 35px 25px;
+
+    background-color: var(--cream);
+
+    text-align: center;
+
+    transition: transform 0.3s ease;
+}
+
+.coffee-process-card:hover {
+    transform: translateY(-5px);
+}
+
+.process-number {
+    position: absolute;
+    top: 15px;
+    right: 18px;
+
+    color: var(--terracotta);
+
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.process-icon {
+    width: 60px;
+    height: 60px;
+
+    margin: 15px auto 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: var(--beige);
+    color: var(--terracotta);
+
+    font-size: 20px;
+}
+
+.coffee-process-card h3 {
+    margin-bottom: 12px;
+
+    color: var(--dark);
+
+    font-family: var(--heading-font);
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.coffee-process-card p {
+    color: var(--brown);
+
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   Brewing Section
+========================= */
+
+.brewing-section {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 50px;
+
+    background-color: var(--beige);
+}
+
+.brewing-heading {
+    margin-bottom: 45px;
+}
+
+.brewing-heading h2 {
+    color: var(--dark);
+
+    font-family: var(--heading-font);
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 0.95;
+}
+
+.brewing-heading h2 span {
+    display: block;
+    color: var(--terracotta);
+}
+
+.brewing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.brewing-card {
+    background-color: var(--white);
+
+    transition: transform 0.3s ease;
+}
+
+.brewing-card:hover {
+    transform: translateY(-5px);
+}
+
+.brewing-image {
+    height: 380px;
+    overflow: hidden;
+}
+
+.brewing-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform 0.5s ease;
+}
+
+.brewing-card:hover .brewing-image img {
+    transform: scale(1.04);
+}
+
+.brewing-content {
+    padding: 22px;
+}
+
+.coffee-type {
+    margin-bottom: 8px;
+
+    color: var(--terracotta);
+
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1.7px;
+}
+
+.brewing-content h3 {
+    margin-bottom: 10px;
+
+    color: var(--dark);
+
+    font-family: var(--heading-font);
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.brewing-content > p:last-child {
+    color: var(--brown);
+
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   Coffee Selection
+========================= */
+
+.coffee-selection {
+    min-height: 470px;
+    padding: 80px 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--sage);
+
+    text-align: center;
+}
+
+.coffee-selection-content {
+    max-width: 700px;
+}
+
+.coffee-selection .section-label {
+    color: var(--cream);
+}
+
+.coffee-selection h2 {
+    margin-bottom: 25px;
+
+    color: var(--white);
+
+    font-family: var(--heading-font);
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 0.95;
+}
+
+.coffee-selection h2 span {
+    display: block;
+    color: var(--beige);
+}
+
+.coffee-selection p:not(.section-label) {
+    max-width: 520px;
+    margin: 0 auto 30px;
+
+    color: var(--cream);
+
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   Coffee Responsive
+========================= */
+
+@media (max-width: 850px) {
+
+    .coffee-hero {
+        min-height: 450px;
+        padding: 70px 30px;
+    }
+
+    .coffee-hero h1 {
+        font-size: 60px;
+    }
+
+    .coffee-origin {
+        padding: 80px 30px;
+
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .coffee-origin-image {
+        height: 500px;
+    }
+
+    .coffee-origin-content {
+        max-width: 100%;
+    }
+
+    .bean-to-cup {
+        padding: 80px 30px;
+    }
+
+    .coffee-process-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .brewing-section {
+        padding: 80px 30px;
+    }
+
+    .brewing-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .brewing-card:last-child {
+        grid-column: span 2;
+
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    .coffee-selection {
+        padding: 70px 30px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .coffee-hero {
+        min-height: 430px;
+        padding: 60px 20px;
+    }
+
+    .coffee-hero h1 {
+        font-size: 48px;
+    }
+
+    .coffee-hero p:last-child {
+        font-size: 12px;
+    }
+
+    .coffee-origin {
+        padding: 70px 20px;
+    }
+
+    .coffee-origin-image {
+        height: 430px;
+    }
+
+    .coffee-origin-content h2 {
+        font-size: 45px;
+    }
+
+    .bean-to-cup {
+        padding: 70px 20px;
+    }
+
+    .bean-to-cup-heading h2 {
+        font-size: 44px;
+    }
+
+    .coffee-process-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .brewing-section {
+        padding: 70px 20px;
+    }
+
+    .brewing-heading h2 {
+        font-size: 44px;
+    }
+
+    .brewing-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .brewing-card:last-child {
+        grid-column: auto;
+
+        max-width: 100%;
+    }
+
+    .brewing-image {
+        height: 420px;
+    }
+
+    .coffee-selection {
+        min-height: 420px;
+        padding: 60px 20px;
+    }
+
+    .coffee-selection h2 {
+        font-size: 50px;
+    }
+
+}
