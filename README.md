@@ -71,4 +71,7 @@ The goal of CHAUTARI is to create a polished and responsive café website that c
 **Agraz Adhikari**
 
 BSc (Hons) Computing
+
+---
+
 **CHAUTARI — Take a seat. Stay a while.**
